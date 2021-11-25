@@ -1,0 +1,11 @@
+<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <ellipse class="sel" cx="3.0719" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 3.0719 3.00255)" />
+    <ellipse class="1" cx="13.7793" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 13.7793 3.00255)" />
+    <ellipse class="sel" cx="24.4866" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 24.4866 3.00255)" />
+    <ellipse class="1" cx="3.0719" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 3.0719 13.714)" />
+    <ellipse class="sel" cx="13.7793" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 13.7793 13.714)" />
+    <ellipse class="1" cx="24.4866" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 24.4866 13.714)" />
+    <ellipse class="sel" cx="3.0719" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 3.0719 24.4249)" />
+    <ellipse class="1" cx="13.7793" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 13.7793 24.4249)" />
+    <ellipse class="sel" cx="24.4866" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 24.4866 24.4249)" />
+</svg>

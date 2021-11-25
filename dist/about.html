@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" media="all" href="./libs/swiper.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+<header class="header">
+    <div class="big-container">
+        <div class="header__container">
+            <div class="logo">
+                <a href="#">
+                    <img class="sec" src="./img/logo-b.svg" alt="">
+                    <img src="./img/logo-w.svg" alt="">
+                </a>
+            </div>
+            <div class="header-menu">
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li class="menu-item-has-children">
+                        <a href="#">Products</a>
+                        <ul>
+                            <li><a href=""><img src="./img/men-1.svg" alt="">Scieline for <strong>Chemistry</strong></a></li>
+                            <li><a href=""><img src="./img/men-2.svg" alt="">Scieline for <strong>Biologics</strong></a></li>
+                            <li><a href=""><img src="./img/men-3.svg" alt="">Scieline for <strong>Food</strong></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Solutions</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="header-search">
+                <div class="header-search__icon">
+                    <img src="./img/search-icon.svg" alt="">
+                </div>
+                <div class="search-header">
+                    <div class="container">
+                        <div class="search-header__block">
+                            <input type="search" placeholder="What are you looking for?">
+                            <button class="btn btn--blue">
+                                Search
+                            </button>
+
+                        </div>
+                        <div class="close-search">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <ellipse class="sel" cx="3.0719" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 3.0719 3.00255)" />
+                                <ellipse class="1" cx="13.7793" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 13.7793 3.00255)" />
+                                <ellipse class="sel" cx="24.4866" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 24.4866 3.00255)" />
+                                <ellipse class="1" cx="3.0719" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 3.0719 13.714)" />
+                                <ellipse class="sel" cx="13.7793" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 13.7793 13.714)" />
+                                <ellipse class="1" cx="24.4866" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 24.4866 13.714)" />
+                                <ellipse class="sel" cx="3.0719" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 3.0719 24.4249)" />
+                                <ellipse class="1" cx="13.7793" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 13.7793 24.4249)" />
+                                <ellipse class="sel" cx="24.4866" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 24.4866 24.4249)" />
+                            </svg>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-contrast">
+                <div class="header__contr">
+                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.5 0C19.4087 0 25 5.59067 25 12.5C25 19.4087 19.4093 25 12.5 25C5.59126 25 0 19.4093 0 12.5C0 5.59126 5.59067 0 12.5 0ZM11.7676 23.5114V1.48862C6.09082 1.85796 1.46484 6.57314 1.46484 12.5C1.46484 18.4252 6.08813 23.1418 11.7676 23.5114Z"
+                        />
+                    </svg>
+                </div>
+            </div>
+            <a href="#" class="btn btn--blue mod-req">Request a demo</a>
+            <div class="burger-header">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse class="sel" cx="3.0719" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 3.0719 3.00255)" />
+                    <ellipse class="1" cx="13.7793" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 13.7793 3.00255)" />
+                    <ellipse class="sel" cx="24.4866" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 24.4866 3.00255)" />
+                    <ellipse class="1" cx="3.0719" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 3.0719 13.714)" />
+                    <ellipse class="sel" cx="13.7793" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 13.7793 13.714)" />
+                    <ellipse class="1" cx="24.4866" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 24.4866 13.714)" />
+                    <ellipse class="sel" cx="3.0719" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 3.0719 24.4249)" />
+                    <ellipse class="1" cx="13.7793" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 13.7793 24.4249)" />
+                    <ellipse class="sel" cx="24.4866" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 24.4866 24.4249)" />
+                </svg>
+            </div>
+
+            <div class="mobile-menu">
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li class="menu-item-has-children">
+                        <a href="#">Products</a>
+                        <ul>
+                            <li><a href=""><img src="./img/men-1.svg" alt="">Scieline for <strong>Chemistry</strong></a></li>
+                            <li><a href=""><img src="./img/men-2.svg" alt="">Scieline for <strong>Biologics</strong></a></li>
+                            <li><a href=""><img src="./img/men-3.svg" alt="">Scieline for <strong>Food</strong></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Solutions</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <a href="#" class="btn btn--blue mod-req">Request a demo</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="hero hero--about">
+        <div class="hero-about-bg">
+            <picture>
+                <source media="(max-width:650px)" srcset="./img/mob-about-us-bg.png">
+
+
+                <img src="./img/about-us-mask.png" alt="Flowers">
+            </picture>
+        </div>
+
+        <div class="container">
+            <div class="hero__default">
+                <div class="hero__text">
+                    <div class="bread-nav">
+                        <ul class="breadcrumbs">
+                            <li><a href="#">Home</a></li>
+                            <li><span>About Us</span></li>
+                        </ul>
+                    </div>
+                    <h1 class="hero-title">
+                        About Us
+                    </h1>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about-us blue-title">
+        <div class="container-little">
+            <div class="about-us__container">
+                <div class="about-us__images">
+                    <div class="img">
+                        <img src="./img/ab-im-1.jpg" alt="">
+                    </div>
+                    <div class="img">
+                        <img src="./img/ab-im-2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="about-us__text">
+                    <div class="left">
+                        <p class="dots-title">about us</p>
+                        <h2>With Scieline we aim to “maximize collaborative research through highly collaborative
+                            customer service”</h2>
+                        <p>The Scieline team is based in Israel and the United States and services the pharmaceutical,
+                            biopharmaceutical, chemical and food customers globally.
+                            The team has seen increasing interest in paperless solutions for R&D and continues to
+                            harness the ideas of its clients to improve Scieline and create a best in class platform for
+                            R&D. </p>
+                    </div>
+                    <div class="right">
+                        <p>Scieline was first developed to document work in the R&D laboratory for a global
+                            biopharmaceutical company based in EuropeWhat was unique at the time was the idea to mirror
+                            the manufacturing process at the product development state. By doing so we realized we could
+                            significant reduce product development timelines. Recognizing the power of Scieline, we
+                            decided to offer this solution more broadly and into different industry sectors. And since
+                            the initial introduction of Scieline in XXXX, a loyal customer base and dedicated support
+                            staff has grown around this software solution.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="our-solution">
+        <div class="block-mask">
+
+            <div class="big-container">
+                <div class="scroll-bl">
+                    <div class="img">
+                        <img src="./img/btm-arr-w.svg" alt="">
+                    </div>
+                    <p>Scroll and Discover
+                        more Solutions</p>
+                </div>
+                <div class="text-sol">
+                    <p class="dots-title">about-us</p>
+                    <h2>Our Solution</h2>
+                    <p>Whether your focus is product registration and approval, or simply seeking to better control
+                        product launch, Scieline offers the following solutions:
+
+                    </p>
+                </div>
+
+            </div>
+            <div class="img-mask">
+            </div>
+        </div>
+        <div class="block-slides">
+            <div class="solution-card">
+                <div class="visible">
+                    <div class="img">
+                        <img src="./img/sol-ic-1.svg" alt="">
+                    </div>
+                    <p>E notebook for data recording
+                    </p>
+                </div>
+                <div class="non-visible">
+                    <div class="close">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse class="sel" cx="3.0719" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 3.0719 3.00255)"></ellipse>
+                            <ellipse class="1" cx="13.7793" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 13.7793 3.00255)"></ellipse>
+                            <ellipse class="sel" cx="24.4866" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 24.4866 3.00255)"></ellipse>
+                            <ellipse class="1" cx="3.0719" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 3.0719 13.714)"></ellipse>
+                            <ellipse class="sel" cx="13.7793" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 13.7793 13.714)"></ellipse>
+                            <ellipse class="1" cx="24.4866" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 24.4866 13.714)"></ellipse>
+                            <ellipse class="sel" cx="3.0719" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 3.0719 24.4249)"></ellipse>
+                            <ellipse class="1" cx="13.7793" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 13.7793 24.4249)"></ellipse>
+                            <ellipse class="sel" cx="24.4866" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 24.4866 24.4249)"></ellipse>
+                        </svg>
+                    </div>
+                    <div class="img">
+                        <img src="./img/sol-sec-ic-1.svg" alt="">
+                    </div>
+                    <div class="text">
+                        <span>Inventory management for sample handling
+</span>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially
+                            unchanged.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="solution-card">
+                <div class="visible">
+                    <div class="img">
+                        <img src="./img/sol-ic-2.svg" alt="">
+                    </div>
+                    <p>Inventory management for sample handling
+
+                    </p>
+                </div>
+                <div class="non-visible">
+                    <div class="img">
+                        <img src="./img/sol-sec-ic-1.svg" alt="">
+                    </div>
+                    <div class="text">
+                        <span>Inventory management for sample handling
+</span>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially
+                            unchanged.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="solution-card">
+                <div class="visible">
+                    <div class="img">
+                        <img src="./img/sol-ic-3.svg" alt="">
+                    </div>
+                    <p>Stability study management
+
+                    </p>
+                </div>
+                <div class="non-visible">
+                    <div class="img">
+                        <img src="./img/sol-sec-ic-1.svg" alt="">
+                    </div>
+                    <div class="text">
+                        <span>Inventory management for sample handling
+</span>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially
+                            unchanged.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="solution-card">
+                <div class="visible">
+                    <div class="img">
+                        <img src="./img/sol-ic-4.svg" alt="">
+                    </div>
+                    <p>Environmental monitoring management
+                    </p>
+                </div>
+                <div class="non-visible">
+                    <div class="img">
+                        <img src="./img/sol-sec-ic-1.svg" alt="">
+                    </div>
+                    <div class="text">
+                        <span>Inventory management for sample handling
+</span>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially
+                            unchanged.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="solution-card">
+                <div class="visible">
+                    <div class="img">
+                        <img src="./img/sol-ic-5.svg" alt="">
+                    </div>
+                    <p>Data analytics
+                    </p>
+                </div>
+                <div class="non-visible">
+                    <div class="img">
+                        <img src="./img/sol-sec-ic-1.svg" alt="">
+                    </div>
+                    <div class="text">
+                        <span>Inventory management for sample handling
+</span>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially
+                            unchanged.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="solution-card">
+                <div class="visible">
+                    <div class="img">
+                        <img src="./img/sol-ic-6.svg" alt="">
+                    </div>
+                    <p>Data reporting
+                    </p>
+                </div>
+                <div class="non-visible">
+                    <div class="img">
+                        <img src="./img/sol-sec-ic-1.svg" alt="">
+                    </div>
+                    <div class="text">
+                        <span>Inventory management for sample handling
+</span>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially
+                            unchanged.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="modals-solution-mobile">
+        <div class="non-visible">
+            <div class="close">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse class="sel" cx="3.0719" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 3.0719 3.00255)"></ellipse>
+                    <ellipse class="1" cx="13.7793" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 13.7793 3.00255)"></ellipse>
+                    <ellipse class="sel" cx="24.4866" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 24.4866 3.00255)"></ellipse>
+                    <ellipse class="1" cx="3.0719" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 3.0719 13.714)"></ellipse>
+                    <ellipse class="sel" cx="13.7793" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 13.7793 13.714)"></ellipse>
+                    <ellipse class="1" cx="24.4866" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 24.4866 13.714)"></ellipse>
+                    <ellipse class="sel" cx="3.0719" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 3.0719 24.4249)"></ellipse>
+                    <ellipse class="1" cx="13.7793" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 13.7793 24.4249)"></ellipse>
+                    <ellipse class="sel" cx="24.4866" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 24.4866 24.4249)"></ellipse>
+                </svg>
+            </div>
+            <div class="img">
+                <img src="./img/sol-sec-ic-1.svg" alt="">
+            </div>
+            <div class="text">
+                        <span>Inventory management for sample handling
+</span>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                    been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                    galley of type and scrambled it to make a type specimen book. It has survived not only five
+                    centuries, but also the leap into electronic typesetting, remaining essentially
+                    unchanged.</p>
+            </div>
+
+        </div>
+        <div class="non-visible">
+            <div class="close">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse class="sel" cx="3.0719" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 3.0719 3.00255)"></ellipse>
+                    <ellipse class="1" cx="13.7793" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 13.7793 3.00255)"></ellipse>
+                    <ellipse class="sel" cx="24.4866" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 24.4866 3.00255)"></ellipse>
+                    <ellipse class="1" cx="3.0719" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 3.0719 13.714)"></ellipse>
+                    <ellipse class="sel" cx="13.7793" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 13.7793 13.714)"></ellipse>
+                    <ellipse class="1" cx="24.4866" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 24.4866 13.714)"></ellipse>
+                    <ellipse class="sel" cx="3.0719" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 3.0719 24.4249)"></ellipse>
+                    <ellipse class="1" cx="13.7793" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 13.7793 24.4249)"></ellipse>
+                    <ellipse class="sel" cx="24.4866" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 24.4866 24.4249)"></ellipse>
+                </svg>
+            </div>
+            <div class="img">
+                <img src="./img/sol-sec-ic-1.svg" alt="">
+            </div>
+            <div class="text">
+                        <span>Inventory management for sample handling
+</span>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                    been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                    galley of type and scrambled it to make a type specimen book. It has survived not only five
+                    centuries, but also the leap into electronic typesetting, remaining essentially
+                    unchanged.</p>
+            </div>
+
+        </div>
+        <div class="non-visible">
+            <div class="close">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse class="sel" cx="3.0719" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 3.0719 3.00255)"></ellipse>
+                    <ellipse class="1" cx="13.7793" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 13.7793 3.00255)"></ellipse>
+                    <ellipse class="sel" cx="24.4866" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 24.4866 3.00255)"></ellipse>
+                    <ellipse class="1" cx="3.0719" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 3.0719 13.714)"></ellipse>
+                    <ellipse class="sel" cx="13.7793" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 13.7793 13.714)"></ellipse>
+                    <ellipse class="1" cx="24.4866" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 24.4866 13.714)"></ellipse>
+                    <ellipse class="sel" cx="3.0719" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 3.0719 24.4249)"></ellipse>
+                    <ellipse class="1" cx="13.7793" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 13.7793 24.4249)"></ellipse>
+                    <ellipse class="sel" cx="24.4866" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 24.4866 24.4249)"></ellipse>
+                </svg>
+            </div>
+            <div class="img">
+                <img src="./img/sol-sec-ic-1.svg" alt="">
+            </div>
+            <div class="text">
+                        <span>Inventory management for sample handling
+</span>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                    been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                    galley of type and scrambled it to make a type specimen book. It has survived not only five
+                    centuries, but also the leap into electronic typesetting, remaining essentially
+                    unchanged.</p>
+            </div>
+
+        </div>
+        <div class="non-visible">
+            <div class="close">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse class="sel" cx="3.0719" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 3.0719 3.00255)"></ellipse>
+                    <ellipse class="1" cx="13.7793" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 13.7793 3.00255)"></ellipse>
+                    <ellipse class="sel" cx="24.4866" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 24.4866 3.00255)"></ellipse>
+                    <ellipse class="1" cx="3.0719" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 3.0719 13.714)"></ellipse>
+                    <ellipse class="sel" cx="13.7793" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 13.7793 13.714)"></ellipse>
+                    <ellipse class="1" cx="24.4866" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 24.4866 13.714)"></ellipse>
+                    <ellipse class="sel" cx="3.0719" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 3.0719 24.4249)"></ellipse>
+                    <ellipse class="1" cx="13.7793" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 13.7793 24.4249)"></ellipse>
+                    <ellipse class="sel" cx="24.4866" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 24.4866 24.4249)"></ellipse>
+                </svg>
+            </div>
+            <div class="img">
+                <img src="./img/sol-sec-ic-1.svg" alt="">
+            </div>
+            <div class="text">
+                        <span>Inventory management for sample handling
+</span>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                    been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                    galley of type and scrambled it to make a type specimen book. It has survived not only five
+                    centuries, but also the leap into electronic typesetting, remaining essentially
+                    unchanged.</p>
+            </div>
+
+        </div>
+        <div class="non-visible">
+            <div class="close">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse class="sel" cx="3.0719" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 3.0719 3.00255)"></ellipse>
+                    <ellipse class="1" cx="13.7793" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 13.7793 3.00255)"></ellipse>
+                    <ellipse class="sel" cx="24.4866" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 24.4866 3.00255)"></ellipse>
+                    <ellipse class="1" cx="3.0719" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 3.0719 13.714)"></ellipse>
+                    <ellipse class="sel" cx="13.7793" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 13.7793 13.714)"></ellipse>
+                    <ellipse class="1" cx="24.4866" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 24.4866 13.714)"></ellipse>
+                    <ellipse class="sel" cx="3.0719" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 3.0719 24.4249)"></ellipse>
+                    <ellipse class="1" cx="13.7793" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 13.7793 24.4249)"></ellipse>
+                    <ellipse class="sel" cx="24.4866" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 24.4866 24.4249)"></ellipse>
+                </svg>
+            </div>
+            <div class="img">
+                <img src="./img/sol-sec-ic-1.svg" alt="">
+            </div>
+            <div class="text">
+                        <span>Inventory management for sample handling
+</span>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                    been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                    galley of type and scrambled it to make a type specimen book. It has survived not only five
+                    centuries, but also the leap into electronic typesetting, remaining essentially
+                    unchanged.</p>
+            </div>
+
+        </div>
+        <div class="non-visible">
+            <div class="close">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse class="sel" cx="3.0719" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 3.0719 3.00255)"></ellipse>
+                    <ellipse class="1" cx="13.7793" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 13.7793 3.00255)"></ellipse>
+                    <ellipse class="sel" cx="24.4866" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 24.4866 3.00255)"></ellipse>
+                    <ellipse class="1" cx="3.0719" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 3.0719 13.714)"></ellipse>
+                    <ellipse class="sel" cx="13.7793" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 13.7793 13.714)"></ellipse>
+                    <ellipse class="1" cx="24.4866" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 24.4866 13.714)"></ellipse>
+                    <ellipse class="sel" cx="3.0719" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 3.0719 24.4249)"></ellipse>
+                    <ellipse class="1" cx="13.7793" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 13.7793 24.4249)"></ellipse>
+                    <ellipse class="sel" cx="24.4866" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 24.4866 24.4249)"></ellipse>
+                </svg>
+            </div>
+            <div class="img">
+                <img src="./img/sol-sec-ic-1.svg" alt="">
+            </div>
+            <div class="text">
+                        <span>Inventory management for sample handling
+</span>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                    been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                    galley of type and scrambled it to make a type specimen book. It has survived not only five
+                    centuries, but also the leap into electronic typesetting, remaining essentially
+                    unchanged.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="our-team blue-title">
+        <div class="container">
+            <div class="our-team__container">
+                <div class="our-team__head">
+                    <p class="dots-title">our core team
+                    </p>
+                    <span>It`s Nice to meet you</span>
+
+                </div>
+                <div class="our-team__content">
+                    <div class="single-team">
+                        <div class="img">
+                            <img src="./img/tm-1.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <p>Gai Anbar </p>
+                            <span>CEO</span>
+                        </div>
+                    </div>
+                    <div class="single-team">
+                        <div class="img">
+                            <img src="./img/tm-2.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <p>Yaron Pharhi</p>
+                            <span>Software Development Manager</span>
+                        </div>
+                    </div>
+                    <div class="single-team">
+                        <div class="img">
+                            <img src="./img/tm-3.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <p>Tamar Weingot</p>
+                            <span>QA Manager</span>
+                        </div>
+                    </div>
+                    <div class="single-team">
+                        <div class="img">
+                            <img src="./img/tm-4.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <p>Irit Menachem</p>
+                            <span>Product Manager</span>
+                        </div>
+                    </div>
+                    <div class="single-team">
+                        <div class="img">
+                            <img src="./img/tm-5.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <p>Paz Zimroni</p>
+                            <span>HR Manager</span>
+                        </div>
+                    </div>
+                    <div class="single-team">
+                        <div class="img">
+                            <img src="./img/tm-6.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <p>Ran Borenfld</p>
+                            <span>QA Manager</span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="question ">
+        <div class="container">
+            <div class="question__container">
+                <div class="quest-bg dark">
+                    <picture>
+                        <source media="(max-width:650px)" srcset="./img/qst-i-2.jpg">
+
+
+                        <img src="./img/qst-i-1.jpg" alt="Flowers" >
+                    </picture>
+                </div>
+                <div class="quest-content">
+                    <p>Great engagement starts here...</p>
+                    <a href="#" class="btn btn--blue mod-req">Request a demo</a>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-top">
+            <div class="logo-footer">
+                <a href="#">
+                    <img src="./img/logo-b.svg" alt="">
+                </a>
+            </div>
+            <div class="footer-menu">
+                <ul>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Solutions</a></li>
+                    <li class="menu-item-has-children">
+                        <a href="">Products</a>
+                        <ul>
+                            <li><a href="">Skyline for Biotech</a></li>
+                            <li><a href="">Skyline for Speciality Chemistry</a></li>
+                            <li><a href="">Skyline for Food Tech</a></li>
+                        </ul>
+
+
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="#">Contact</a>
+                        <div class="footer-contacts">
+                            <div class="address">Haprachim St 6 <br>
+                                Kfar Malal, 45920, Israel
+                            </div>
+                            <a href="tel:" class="phone">+972 7 22124400</a>
+                            <a href="tel:" class="fax">+972 7 22124400</a>
+                            <a href="mailto:" class="mail">info@Scieline.co.il</a>
+                            <div class="socials">
+                                <a href="">
+                                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_421_2565)">
+                                            <path d="M15.5001 0.619385C7.28202 0.619385 0.620117 7.28129 0.620117 15.4994C0.620117 23.7175 7.28202 30.3794 15.5001 30.3794C23.7182 30.3794 30.3801 23.7175 30.3801 15.4994C30.3801 7.28129 23.7182 0.619385 15.5001 0.619385ZM19.0248 10.9021H16.7882C16.5231 10.9021 16.2286 11.2508 16.2286 11.7143V13.3294H19.0264L18.6032 15.6327H16.2286V22.5472H13.589V15.6327H11.1942V13.3294H13.589V11.9747C13.589 10.031 14.9375 8.45153 16.7882 8.45153H19.0248V10.9021Z"
+                                            />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_421_2565">
+                                                <rect width="31" height="31" fill="white"
+                                                      transform="translate(0 -0.000488281)"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                                <a href="">
+                                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_421_2567)">
+                                            <path d="M15.5 -0.000488281C6.9409 -0.000488281 0 6.94041 0 15.4995C0 24.0586 6.9409 30.9995 15.5 30.9995C24.0591 30.9995 31 24.0586 31 15.4995C31 6.94041 24.0591 -0.000488281 15.5 -0.000488281ZM10.9959 23.4312H7.22092V12.0741H10.9959V23.4312ZM9.10852 10.5233H9.08392C7.81717 10.5233 6.99789 9.6513 6.99789 8.56145C6.99789 7.44701 7.84224 6.59912 9.13359 6.59912C10.4249 6.59912 11.2196 7.44701 11.2442 8.56145C11.2442 9.6513 10.4249 10.5233 9.10852 10.5233ZM24.6076 23.4312H20.8331V17.3554C20.8331 15.8285 20.2865 14.7871 18.9207 14.7871C17.8779 14.7871 17.2568 15.4896 16.9839 16.1677C16.8841 16.4103 16.8597 16.7495 16.8597 17.0889V23.4312H13.085C13.085 23.4312 13.1344 13.1396 13.085 12.0741H16.8597V13.6822C17.3613 12.9083 18.2589 11.8076 20.2617 11.8076C22.7453 11.8076 24.6076 13.4307 24.6076 16.9191V23.4312Z"
+                                                  />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_421_2567">
+                                                <rect width="31" height="31" fill="white"
+                                                      transform="translate(0 -0.000488281)"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom__container">
+                <p>© Scieline All rights reserved</p>
+                <a href="">dooble</a>
+            </div>
+
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+
+<script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+<script src="libs/swiper.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<!--<script src="js/jquery.nice-select.min.js"></script>-->
+<!--<script src="./libs/jquery.raty.js"></script>-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+<script type="text/javascript" src="./js/scripts.min.js"></script>
+
+</body>
+</html>
