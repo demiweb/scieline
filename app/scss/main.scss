@@ -121,7 +121,9 @@ body {
     overflow: hidden;
   }
 }
-
+::-webkit-scrollbar {
+  all:unset;
+}
 
 .wrapper {
   width: 100%;
@@ -3842,5 +3844,6 @@ p, h1, ul, ol, h2, h3, h4, h5, h6 {
   justify-content: flex-start;
 
 }
+
 
 @import "media"; // Always at the end
