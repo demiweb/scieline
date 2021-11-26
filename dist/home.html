@@ -652,7 +652,7 @@ phasellus id elit a dolor posuere fringilla</span>
                                          xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_421_2567)">
                                             <path d="M15.5 -0.000488281C6.9409 -0.000488281 0 6.94041 0 15.4995C0 24.0586 6.9409 30.9995 15.5 30.9995C24.0591 30.9995 31 24.0586 31 15.4995C31 6.94041 24.0591 -0.000488281 15.5 -0.000488281ZM10.9959 23.4312H7.22092V12.0741H10.9959V23.4312ZM9.10852 10.5233H9.08392C7.81717 10.5233 6.99789 9.6513 6.99789 8.56145C6.99789 7.44701 7.84224 6.59912 9.13359 6.59912C10.4249 6.59912 11.2196 7.44701 11.2442 8.56145C11.2442 9.6513 10.4249 10.5233 9.10852 10.5233ZM24.6076 23.4312H20.8331V17.3554C20.8331 15.8285 20.2865 14.7871 18.9207 14.7871C17.8779 14.7871 17.2568 15.4896 16.9839 16.1677C16.8841 16.4103 16.8597 16.7495 16.8597 17.0889V23.4312H13.085C13.085 23.4312 13.1344 13.1396 13.085 12.0741H16.8597V13.6822C17.3613 12.9083 18.2589 11.8076 20.2617 11.8076C22.7453 11.8076 24.6076 13.4307 24.6076 16.9191V23.4312Z"
-                                                  />
+                                            />
                                         </g>
                                         <defs>
                                             <clipPath id="clip0_421_2567">
@@ -677,6 +677,67 @@ phasellus id elit a dolor posuere fringilla</span>
         </div>
     </div>
 </footer>
+
+
+<div class="modal-window modal-req ">
+    <div class="backplate-mod"></div>
+    <div class="modal-container">
+        <div class="close">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse class="sel" cx="3.0719" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 3.0719 3.00255)"></ellipse>
+                <ellipse class="1" cx="13.7793" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 13.7793 3.00255)"></ellipse>
+                <ellipse class="sel" cx="24.4866" cy="3.00255" rx="3.00255" ry="3" transform="rotate(90 24.4866 3.00255)"></ellipse>
+                <ellipse class="1" cx="3.0719" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 3.0719 13.714)"></ellipse>
+                <ellipse class="sel" cx="13.7793" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 13.7793 13.714)"></ellipse>
+                <ellipse class="1" cx="24.4866" cy="13.714" rx="3.00255" ry="3" transform="rotate(90 24.4866 13.714)"></ellipse>
+                <ellipse class="sel" cx="3.0719" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 3.0719 24.4249)"></ellipse>
+                <ellipse class="1" cx="13.7793" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 13.7793 24.4249)"></ellipse>
+                <ellipse class="sel" cx="24.4866" cy="24.4249" rx="3.00255" ry="3" transform="rotate(90 24.4866 24.4249)"></ellipse>
+            </svg>
+        </div>
+        <div class="modal-content">
+            <div class="form-block">
+                <p class="form-title">Request a demo</p>
+                <span class="form-sub">Lorem ipsum dolor sit amet, consectetur
+adipiscing elit. Nunc dolor ligula, gravida vitae</span>
+                <form action="">
+                    <input type="text" placeholder="* Full Name" required>
+                    <input type="email" placeholder="* Email" required>
+                    <input type="text" placeholder="* Company" required>
+                    <input type="text" placeholder="Number of users" required>
+
+                    <div class="form-radios">
+                        <p>What kind of Product are you looking for?</p>
+                        <label for="prod-1">
+                            <input type="radio" name="products" id="prod-1">
+                            <span>Scieline for Biotech</span>
+                        </label>
+                        <label for="prod-2">
+                            <input type="radio" name="products" id="prod-2">
+                            <span>Scieline for Food Tech</span>
+                        </label>
+                        <label for="prod-3">
+                            <input type="radio" name="products" id="prod-3">
+                            <span>Scieline for Speciality Chemistry</span>
+                        </label>
+                    </div>
+                    <input type="tel" placeholder="Phone">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+
+                    <div class="form-checkbox">
+                        <label for="policy">
+                            <input type="checkbox" checked name="policy" id="policy">
+                            <span>The information you provide will be used in accordance with the terms of our privacy policy.
+</span>
+                        </label>
+                    </div>
+
+                    <button class="btn btn--blue">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 
 <script
@@ -684,6 +745,8 @@ phasellus id elit a dolor posuere fringilla</span>
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
         crossorigin="anonymous"></script>
 <script src="libs/swiper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
@@ -691,6 +754,8 @@ phasellus id elit a dolor posuere fringilla</span>
 <!--<script src="js/jquery.nice-select.min.js"></script>-->
 <!--<script src="./libs/jquery.raty.js"></script>-->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+<script src="https://unpkg.com/animatorjs@latest/dist/animator.min.js"></script>
 
 <script type="text/javascript" src="./js/scripts.min.js"></script>
 

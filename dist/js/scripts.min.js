@@ -130,11 +130,11 @@ function detectBlockSolution() {
 
 window.onscroll = function () {
     scrollFunction();
-    detectBlockSolution();
+    // detectBlockSolution();
 };
 function scrollFunction() {
     checkScrollDir();
-    detectBlockSolution();
+    // detectBlockSolution();
 }
 document.querySelector('header').onload = () => {
     // console.log(window.pageYOffset + ' pageoffset')
@@ -143,6 +143,7 @@ document.querySelector('header').onload = () => {
     }
     scrollFunction();
 };
+
 
 let subMenu = [...document.querySelectorAll('.menu-item-has-children > a')];
 
@@ -382,4 +383,50 @@ function openMobileSolution() {
 }
 
 openMobileSolution();
+
+
+let openModal = [...document.querySelectorAll('.mod-req')];
+
+function openModalReq() {
+    if (openModal.length) {
+        openModal.forEach((btn) => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                document.querySelector('.header').classList.remove('opened')
+                document.querySelector('.burger-header ').classList.remove('open')
+                document.querySelector('.modal-req').classList.add('active');
+
+                document.body.classList.add('no-scroll');
+
+            })
+        })
+    }
+}
+
+openModalReq();
+
+let modalWindows = [...document.querySelectorAll('.modal-window')];
+
+
+function controlModal() {
+    if(modalWindows.length) {
+        modalWindows.forEach((mdl) => {
+            let back = mdl.querySelector('.backplate-mod');
+            let close = mdl.querySelector('.close');
+            back.addEventListener('click', () => {
+                document.body.classList.remove('no-scroll');
+                mdl.classList.remove('active');
+            })
+            close.addEventListener('click', () => {
+                document.body.classList.remove('no-scroll');
+                mdl.classList.remove('active');
+            })
+        })
+    }
+}
+
+controlModal();
+
+
+
 
