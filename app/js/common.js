@@ -367,7 +367,10 @@ function openMobileSolution() {
             btn.addEventListener('click', () => {
                 solutionModal.classList.add('open');
                 solutionMobModal[k].classList.add('open');
-                document.body.classList.add('no-scroll');
+                if (window.innerWidth < 768) {
+                    document.body.classList.add('no-scroll');
+
+                }
             })
         })
         solutionMobModal.forEach((btn2, k) => {
