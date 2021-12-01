@@ -655,7 +655,8 @@ p, h1, ul, ol, h2, h3, h4, h5, h6 {
       mask-image: url("../img/try-2.png");
       mask-clip: border-box;
       mask-repeat: no-repeat;
-      mask-position: right top;
+      //mask-position: right top;
+      mask-position: right bottom;
       mask-composite: exclude;
       mask-size: 100%;
 
@@ -1028,6 +1029,19 @@ p, h1, ul, ol, h2, h3, h4, h5, h6 {
       transition: opacity 0.4s ease;
 
     }
+    .products__card {
+      .img {
+        img {
+          opacity: 0;
+          transition: opacity 0.4s ease;
+
+          &.hov {
+            opacity: 1;
+            transition: opacity 0.4s ease;
+          }
+        }
+      }
+    }
   }
 
 
@@ -1046,10 +1060,20 @@ p, h1, ul, ol, h2, h3, h4, h5, h6 {
     margin-right: 30px;
     margin-top: 4px;
     flex-shrink: 0;
+    position: relative;
 
     img {
       height: 100%;
       width: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: opacity 0.4s ease;
+
+      &.hov {
+        opacity: 0;
+        transition: opacity 0.4s ease;
+      }
     }
   }
 
@@ -1319,7 +1343,7 @@ p, h1, ul, ol, h2, h3, h4, h5, h6 {
   border: 1px solid rgba(29, 130, 249, 0.3);
   border-radius: 50%;
 
-  animation: cirF 17s linear infinite;
+  animation: cirF 33s linear infinite;
 
   &::before {
     background: #FFFFFF;
@@ -1372,7 +1396,7 @@ p, h1, ul, ol, h2, h3, h4, h5, h6 {
   left: 50%;
   transform: translate(-50%, -50%);
   box-sizing: border-box;
-  animation: cirS 9s linear infinite;
+  animation: cirS 19s linear infinite;
 
   &::after {
     width: 25px;
@@ -1412,7 +1436,7 @@ p, h1, ul, ol, h2, h3, h4, h5, h6 {
   background: rgba(255, 255, 255, 0.8);
   opacity: 0.8;
   border: 1px solid #2F8FFF;
-  animation: cirT 6s linear infinite;
+  animation: cirT 14s linear infinite;
 
   &::after {
     background: #F9F9F9;
