@@ -54,10 +54,10 @@
     }
   }
   .solution-card .non-visible {
-    padding: 25px 40px 20px 40px;
+    padding: 25px 20px 20px 80px;
   }
   .solution-card {
-    padding: 40px 57px 40px 3.9%;
+    padding: 40px 57px 40px 4.9%;
   }
   .faq-single>p {
     font-size: 16px;
@@ -163,6 +163,7 @@
 }
 
 @media screen and (max-width: 1350px) {
+
   .hero-sub {
     padding-top: 80px;
     padding-bottom: 20px;

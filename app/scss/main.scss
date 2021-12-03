@@ -2522,6 +2522,7 @@ p, h1, ul, ol, h2, h3, h4, h5, h6 {
   }
 
   .non-visible {
+    overflow-y: auto;
     .close {
       display: none;
       width: 27.4px;
