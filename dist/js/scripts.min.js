@@ -433,3 +433,15 @@ controlModal();
 
 
 
+let whiteBlack = [...document.querySelectorAll('.header__contr')];
+
+function changeColorBody() {
+    if (whiteBlack.length) {
+        whiteBlack.forEach((btn) => {
+            btn.addEventListener('click', () => {
+                document.getElementsByTagName( 'html' )[0].classList.toggle('filtred');
+            })
+        })
+    }
+}
+changeColorBody();

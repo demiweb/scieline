@@ -1768,6 +1768,13 @@
   }
 
 }
+@media screen and (min-width: 1200px) {
+  .single-stage:nth-child(5) .text {
+    width: 172px;
+    white-space: initial;
+    box-sizing: border-box;
+  }
+}
 @media screen and (max-width: 650px) {
   .about-project__pic .left .img img, .about-project__pic .left .img picture {
     filter: drop-shadow(0 2px 30px rgba(55, 114, 233, .13));

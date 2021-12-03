@@ -38,10 +38,12 @@ body, html {
 body {
   //overflow-x: hidden;
   max-width: 100%;
+  transition: filter 0.4s ease;
 
   &.fixed {
     position: fixed;
   }
+
 }
 
 * {
@@ -144,6 +146,10 @@ html {
   min-height: 100%;
   font-size: 16px;
   display: flex;
+  &.filtred {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+    filter: grayscale(1);
+  }
 }
 
 .wrapper,
@@ -2914,7 +2920,7 @@ p, h1, ul, ol, h2, h3, h4, h5, h6 {
       &::before {
         width: 22px;
         height: 22px;
-        top: -3px;
+        top: 2px;
         left: 1px;
       }
     }
@@ -3475,6 +3481,9 @@ p, h1, ul, ol, h2, h3, h4, h5, h6 {
   }
 }
 
+.wpcf7-list-item {
+  margin: 0 !important;
+}
 .main-trigg {
   position: fixed;
   width: 40px;
