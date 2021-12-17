@@ -152,7 +152,9 @@ function openSubMenu() {
         subMenu.forEach((btn) => {
             btn.addEventListener('click', (e) => {
                 e.preventDefault();
-                btn.closest('.menu-item-has-children').classList.toggle('active');
+                if (window.innerWidth < 1024) {
+                    btn.closest('.menu-item-has-children').classList.toggle('active');
+                }
             })
         })
     }
